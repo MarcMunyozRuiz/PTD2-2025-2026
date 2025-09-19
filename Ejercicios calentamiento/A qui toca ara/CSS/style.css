@@ -1,0 +1,121 @@
+body{
+    background-image:url("../IMG/fondo.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+    text-align: center;
+    color: green;
+    text-shadow: 2px 2px 4px yellow ;
+}
+
+.noujugador{
+    border-radius: 50%;
+    background-color: green;
+    width: 200px;
+    height:200px ;
+    text-align: center;
+    padding: 60px;
+    margin-left: 155px;
+    
+    
+}
+
+.subtitle{
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+}
+
+.nom{
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;
+}
+
+.button{
+    margin-top: 30px;
+    background-color: rgb(28, 199, 199);
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.button:hover{
+    color: red;
+}
+
+.arajuga{
+    background-color: rgb(71, 255, 47);
+    width: 350px;
+    height: 250px;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 145px;
+    margin-top: 30px;
+
+}
+
+.subtitle2{
+    padding-top: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.blank{
+    width: 250px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-transform: capitalize;
+    height: 20px;
+      
+}
+
+.blank2{
+    line-height: 3;
+    color: green;
+    text-transform: capitalize;
+}
+
+.button2{
+    margin-top: 10px;
+    background-color: rgb(28, 199, 199);
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.button2:hover{
+    color: red;
+}
+
+.llista{
+    margin-left: 700px;
+    margin-top: -600px;
+    background-color: rgb(22, 156, 22);
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.subtitle3{
+    color: white;
+    padding-top: 25px;
+}
+
+#jugadors{
+    margin-left: 30px;
+    background-color: white;
+    margin-right: 30px;
+    padding: 20px;
+    
+}
