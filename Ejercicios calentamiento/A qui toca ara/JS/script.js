@@ -11,7 +11,7 @@ function afegir() {
 function seguent() {
 
     document.getElementById("juga").innerHTML = llista[0]
-    let llista2 = llista.shift();
-    llista.push(llista2)
+    let first = llista.shift();
+    llista.push(first)
 
 }
