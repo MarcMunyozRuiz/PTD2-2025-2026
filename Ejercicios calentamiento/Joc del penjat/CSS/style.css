@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+body{
+    background-image:url("../IMG/fondo2.jpg")
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    color: yellow;
+    text-shadow: black 5px 5px;
+}
+
+main{
+    display: flex;
+    padding: 50px;
+    gap: 100px;
+}
+
+.flex-left{
+    background-color: rgb(3, 165, 3);
+    height: 500px;
+    border-radius: 25px;
+    width: 700px;
+    text-align: center;
+}
+
+.img1{
+    width: 220px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.blank-left{
+    background-color: white;
+    width: 340px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.letra-adivinar{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-color: yellow;
+    font-size: 16px;
+}
+
+.boton{
+    width: 100px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.flex-right{
+    background-color: rgb(3, 165, 3);
+    border-radius: 25px;
+    width: 700px;
+    text-align: center;
+}
+
+.title-right{
+    color: yellow;
+    text-shadow: black 5px 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.blank-right{
+    background-color: white;
+    width: 200px;
+    height: 350px;
+    margin: auto;
+}
