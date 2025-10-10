@@ -16,7 +16,7 @@ function Inicialitzar() {
 function Adivinar() {
     let letra = document.getElementById("letra").value.toUpperCase();
     for(let i = 0; i < palabra_adivinar.length; i++){
-
+    //añadir el boolean true? 
         if(palabra_adivinar[i] === letra ){
             //añadir a la lista de letras
             alert("hello world")
@@ -39,3 +39,4 @@ function Adivinar() {
 
 
 //Enseñar la palabra con guions ---> palabra_guiones []
+
