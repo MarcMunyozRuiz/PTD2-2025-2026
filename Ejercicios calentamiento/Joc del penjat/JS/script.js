@@ -38,6 +38,4 @@ function Adivinar() {
 //1 variable = letras falladas
 
 
-
-
 //Enseñar la palabra con guions ---> palabra_guiones []
