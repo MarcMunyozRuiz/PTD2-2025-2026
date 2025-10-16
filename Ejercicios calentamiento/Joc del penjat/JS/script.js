@@ -1,4 +1,4 @@
-let diccionario = ["JUEGO", "PROGRAMACION", "DESARROLLO", "JAVASCRIPT"];
+const diccionario = ["JUEGO", "PROGRAMACION", "DESARROLLO", "JAVASCRIPT"];
 let palabra_adivinar = [];
 
 
@@ -10,13 +10,15 @@ function Inicialitzar() {
     palabra_adivinar=[...palabra_adivinar];
     //Borrar la palabra para partida nueva
     document.getElementById("palabra").innerHTML = "";
+    //Resetear imagen
+    document.getElementById("imagen").src = "IMG/A0.png";
     alert(palabra_adivinar)
 }
 
 function Adivinar() {
     let letra = document.getElementById("letra").value.toUpperCase();
     for(let i = 0; i < palabra_adivinar.length; i++){
-    //añadir el boolean true? 
+
         if(palabra_adivinar[i] === letra ){
             //añadir a la lista de letras
             alert("hello world")
@@ -27,6 +29,7 @@ function Adivinar() {
             alert("no world :(")
             //cambiar imagen 
             //añadir a lista de letras
+            //variable numero de fallos ++
         }
     }
 }
@@ -40,3 +43,5 @@ function Adivinar() {
 
 //Enseñar la palabra con guions ---> palabra_guiones []
 
+
+//Benja ha hecho un funcion dibujar >>> switch num fallos 0 --> 0 etc.
