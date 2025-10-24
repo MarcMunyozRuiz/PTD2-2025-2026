@@ -95,3 +95,6 @@ function Dibuixar(errades, encerts){
 //1 variable = letras falladas
 
 //Enseñar la palabra con guions ---> palabra_guiones []
+
+
+//If errores >= 6 enseñar div de Game Over
