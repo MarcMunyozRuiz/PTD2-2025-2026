@@ -9,7 +9,7 @@ function Inicialitzar() {
     //Elegir palabra aleatoria del diccionario
     palabra_adivinar = diccionario[Math.floor(Math.random() * diccionario.length)];
     //Convertir en array divido por letras --> Spread operator
-    palabra_adivinar=[...palabra_adivinar];
+    palabra_adivinar=[...palabra_adivinar]; //Esto la convierte en array separado por comas --> no va bien para esto
     alert(palabra_adivinar)
     //Borrar la palabra para partida nueva
     for(let i = 0; i < palabra_adivinar.length; i++){
@@ -45,6 +45,49 @@ function Adivinar() {
     }
 }
 
+
+
+//Tiene que estar dentro de Adivinar() creo
+//copiado de benja directo
+function Dibuixar(errades, encerts){
+    let imatge = document.getElementById("imagen");
+
+    switch(errades){
+        case 0: 
+            imatge.src = "./IMG/A0.png";
+            break;
+
+        case 1: 
+            imatge.src = "./IMG/A1.png";
+            break;
+            
+        case 2: 
+            imatge.src = "./IMG/A2.png";
+            break;    
+
+        case 3: 
+            imatge.src = "./IMG/A3.png";
+            break; 
+            
+        case 4: 
+            imatge.src = "./IMG/A4.png";
+            break;
+            
+        case 5: 
+            imatge.src = "./IMG/A5.png";
+            break;
+            
+         case 6: 
+            imatge.src = "./IMG/A6.png";
+            break;   
+
+        default:
+            imatge.src = "./IMG/A6.png";
+            break;
+    }
+
+}
+
 //1 array = Letras usadas
 //1 array = Diccionario de palabras
 //1 variable = palabra a adivinar ----> convertir en array
@@ -52,5 +95,3 @@ function Adivinar() {
 //1 variable = letras falladas
 
 //Enseñar la palabra con guions ---> palabra_guiones []
-
-//Benja ha hecho un funcion dibujar >>> switch num fallos 0 --> 0 etc.
